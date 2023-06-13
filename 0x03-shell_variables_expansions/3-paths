@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Number of directories in PATH: ${#DIRS[@]}"
+IFS=: read -ra DIRS <<< "$PATH"
