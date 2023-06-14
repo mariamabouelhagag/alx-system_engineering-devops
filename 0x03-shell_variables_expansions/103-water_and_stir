@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $((10#$WATER + 10#$STIR)) | awk '{printf "%x\n", $0}'
